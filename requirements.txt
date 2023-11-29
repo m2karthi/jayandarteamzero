@@ -1,0 +1,4 @@
+streamlit==1.14.0  # Use the version that you have tested locally
+nltk==3.8.1
+tensorflow==2.15.0  # Use the version that you have tested locally
+keras==2.15.0  # Use the version that you have tested locally
