@@ -3,9 +3,12 @@
 import streamlit as st
 import operator
 import re
+import nltk
+nltk.download('snowball_data')
 from nltk.stem.snowball import SnowballStemmer
 import tensorflow as tf
 from keras.models import load_model
+
 # from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 import pickle
